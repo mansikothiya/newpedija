@@ -1,0 +1,1049 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.font_face_ps {
+  font-family: "Product Sans";
+}
+button{
+  font-family: "Product Sans";
+}
+.my_location{
+  height: 60vh;
+  width:100vw;
+  position: relative;
+}
+.user_title{
+  color: #242A4B;
+  font-weight: 500;
+}
+.locationuser_detail{
+  background-color:#AAAFCB;
+  position: relative;
+  margin-left: 20px;
+  top: 5px;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locationuser_detail > svg{
+  height: 22px !important;
+  width: 22px !important;
+}
+.user_data{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgb(202, 201, 201);
+}
+.clock_img{
+  position: relative;
+  left:5px;
+}
+
+
+.bottom_section{
+  display: flex;
+  border:1px solid rgb(245, 242, 242);
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:#E3E3E3; 
+}
+
+.bottom_section p{ 
+  padding-left: 20px;
+  text-transform: capitalize;
+  color: #242A4B;
+  font-weight: 500;
+}
+
+.select_time{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width:110px;
+  right: 20px;
+  margin: 8px 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #541871;
+  box-shadow: 1px 1px 5px 2px #54187165;
+}
+
+.info_user{
+  position: relative;
+  left:10px;
+  margin:7px 0px 0px;
+  color: #242A4B;
+}
+.info_userdata{
+  position: relative;
+  left:15px;
+  margin: 10px 0px 2px;
+  color: #242A4B;
+  font-size: 14px;
+}
+
+.schedule_time{
+  position: relative;
+  left:7px;
+  top:3px;
+}
+
+
+.schedule_time > svg{
+  width: 20px !important;
+  height: 20px !important;
+
+}
+
+.address_section{
+  display: flex;
+}
+.useraddress_section{
+  display: flex;
+}
+.full_userdetail{
+  position: relative;
+  left:15px;
+  margin:0px 0px 20px;
+  text-transform: capitalize;
+  color:#858AA8;
+  font-size: 14px;
+}
+
+.bottom_line{
+  border-bottom: 1px solid lightgray;
+}
+  
+.main_detail{
+  text-transform: capitalize;
+}
+
+.full_detail{
+  position: relative;
+  left:10px;
+  margin:0px 0px 20px;
+  text-transform: capitalize;
+  color:#858AA8;
+}
+
+.user_icon{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  background-color: #fff;
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clip_icon{
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  background-color: #fff;
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clip_icon_container > svg {
+  height: 25px !important;
+  width: 25px !important;
+}
+.user_icon_container > svg {
+  height: 25px !important;
+  width: 25px !important;
+}
+.time_icon{
+  position: relative;
+  top: 10px;
+  margin: 0px 0px 0px 20px;
+  background-color: #541871;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border:1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.time_icon > svg{
+  height: 25px !important;
+  width: 25px !important;
+}
+
+/*css for UserDetail */
+
+.header_section{
+  margin: 20px 15px;
+  display: flex;
+  height:25px;
+}
+
+.profile_user{
+  position: absolute;
+  left:130px;
+}
+
+.user_svg{
+  border:1px solid gray;
+  border-radius: 50%;
+}
+
+.for_user{
+  display: inline;
+  text-transform: capitalize;
+  margin: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:160px; 
+  font-size: 16px;
+  top:27px;
+}
+
+.for_newuser{
+  display: inline;
+  text-transform: capitalize;
+  margin: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:30px;
+  left:167px; 
+  font-size: 16px;
+}
+
+.for_color{
+  color:#242A4B;
+}
+.down_icon{
+  position: absolute;
+  left:260px;
+  top:25px;
+  background-color: #fff;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.down_icon_container > svg {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+.home_container{
+  display: flex;
+}
+
+.Where_container{
+  display: flex;
+}
+.line_bwn{
+  position: absolute;
+  top:92px;
+  left:32px;
+  color: #141212;
+}
+.saved_place_container{
+  display: flex;
+}
+.user_detail{
+  background-color:#AAAFCB;
+  position: relative;
+  top: 5px;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightarrow_detail{
+  background-color:#FFF;
+  position: absolute;
+  top: 174px;
+  right: 10px;
+  padding: 10px;
+  height: 17px;
+  width: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_detail >svg{
+  
+  height: 22px !important;
+  width: 22px !important;
+}
+.home_btn{
+  padding: 5px;
+  margin: 5px 10px;
+  width: 80%;
+  border:1px solid #E3E3E3;
+  border-radius: 2px;
+  text-align: left;
+  background-color: #F5F4F4; 
+  text-transform: capitalize; 
+}
+
+.primary_color{
+  color:#AAAFCB;
+}
+
+.location_data{
+  display: flex;
+  margin:0px 20px;
+}
+
+.location_detail{
+  margin-bottom: 10px;
+}
+
+.done_btn{
+  position: absolute;
+  bottom: 0px;
+  margin: 10px;
+  padding: 10px;
+  width: 95vw;
+  background-color: #FFCD00;
+  border-radius: 3px;
+  border-style: none;
+  color: #541871;
+}
+
+.auto_line{
+  display: inline;
+  color: #333333;
+}
+
+ /* css for SearchLocation */
+.down_myicon{
+  position: absolute;
+  left:207px;
+  top:22px;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.down_myicon_container > svg {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+.close_icon{
+  position: absolute;
+  top: 13px;
+  left: 10px;
+  background-color: #fff;
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close_icon_container > svg {
+  height: 30px !important;
+  width: 27px !important;
+}
+.user_profiledata{
+  display: flex;
+  cursor: pointer;
+}
+
+.profile_icon >img{
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+}
+.profile_icon{
+  position: absolute;
+  top: 13px;
+  left: 110px;
+  background-color: #fff;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile_icon_container >svg{
+  height: 30px !important;
+  width: 25px !important;
+}
+.green_arrow{
+  height:15px;
+  width:15px;
+  padding:10px; 
+  margin-left: 15px;
+}
+
+ .star_icon{
+  position: relative;
+  top: 10px;
+  left: 15px;
+  background-color: #fff;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border:1px solid #AAAFCB;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star_icon_container > svg{
+  height: 25px !important;
+  width: 25px !important;
+}
+ .new_svg4{
+  position: relative;
+  border:1px solid #AAAFCB;
+  border-radius: 50%;
+  margin: 20px;
+}
+.new_svg3{
+  position: absolute;
+  right:18px;
+  top:18px;
+  border:1px solid #FFFFFF;
+  border-radius: 50%;
+}
+.status_time{
+  position: relative;
+  left:15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.down_btnicon{
+  position: absolute;
+  right: 15px;
+  top:8px;
+  color: white;
+}
+
+.down_btnicon > svg{
+  width: 20px !important;
+  height: 20px !important;
+
+}
+.arrow_img{
+  position: absolute;
+  right: 10px;
+}
+.place_data{
+  border-bottom: 1px solid #EDEDED;
+  display: flex;
+  left:15px;
+}
+
+.top{
+  height: 50px;
+  width: 50px;
+}
+
+.margin_btm{
+  margin-bottom: 20px;
+}
+
+.box_shade{
+  box-shadow: 0px 5px 12px 2px #0000000F;
+}
+
+.save_place{
+  position: relative; 
+  left: 10px;
+   color: #242A4B;
+}
+.bottom_container{
+  margin-left: 15px;
+  height: 60vh;
+  width: 100vw;
+}
+.location_info{
+  display: flex;
+  
+}
+.middle_section{
+  box-shadow: 0px 8px #EFF0F7;
+}
+.select_location{
+  position: relative;
+  left: 10px;
+ color: #242A4B;
+}
+.rightarrow_btm{
+  background-color:#FFF;
+  position: absolute;
+  top: 227px;
+  right: 10px;
+  padding: 10px;
+  height: 17px;
+  width: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent_search{
+  margin: 20px 0px;
+  color: #242A4B;
+}
+
+.mrg_lft{
+  margin: 0px 15px;
+}
+
+.new_mrg{
+  margin-right: 15px;
+}
+
+/* css for LocationDetail */
+
+.for_meuser{
+  display: inline;
+  text-transform: capitalize;
+  margin: 0px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left:160px; 
+  top:25px;
+}
+.down_newicon{
+  position: absolute;
+  left:213px;
+  top:23px;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.down_newicon_container > svg{
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.new_address{
+  position: relative;
+}
+
+.user_address{
+  position: relative;
+  left:15px;
+  margin:10px 0px 2px;
+  color: #242A4B;
+  font-size: 14px;
+}
+
+.full_useraddress{
+  position: relative;
+  left:15px;
+  margin:0px 0px 20px;
+  text-transform: capitalize;
+  color:#858AA8;
+  font-size: 14px;
+}
+
+.user_location{
+  background-color:#AAAFCB;
+  position: relative;
+  top: 7px;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_location > svg{
+  height: 20px;
+  width: 20px;
+}
+
+/* minipedija */
+
+.live_location{
+  height: 60vh;
+  width:100vw;
+  position: relative;
+}
+
+.back_icon{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  background-color: #fff;
+  padding: 10px;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back_icon_container > svg {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+.booking_detail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.rent_detail{
+  display: block;
+  margin: 0px 0px 0px 0px;
+  font-size: 12px;
+  color: #242A4B;
+}
+
+.dot_icon{
+  color:#AAAFCB;
+  height: 20px;
+  width: 13px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.dot_icon_container > svg{
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.people_detail{
+  display:block;
+  margin: 0px;
+  font-size:12px ;
+}
+
+.people_icon{
+  color: #242A4B;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  margin-left: 2px;
+}
+
+.people_icon_container >svg{
+  height: 15px;
+  width: 15px;
+}
+
+.bdr_btmmini{
+  border-bottom: 2px solid #541871D0;
+}
+
+.opacity_new{
+  opacity: 0.5;
+}
+
+.microcar_detail{
+  display: block;
+  width:105px;
+}
+
+.microcar_icon{
+  margin: 20px 20px 5px;
+  height:80px;
+  width:100px;
+}
+
+.microcar_title{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #541871;
+  margin: 0px;
+}
+
+.middle_detail{
+  width: 100vw;
+  display: flex;
+  border-bottom: 1px solid #DCDEEA;
+  box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.16);
+}
+.discount_detail{
+  display: flex;
+  border-bottom: 1px solid #DCDEEA;
+}
+.coupon_icon{
+  height: 20px;
+  width: 20px;
+}
+
+.coupon_icon > img{
+  height: 25px;
+  width: 25px;
+}
+
+.coupen_detail{
+  flex-basis: 50%;
+  font-size: 18px;
+  border-right: 1px solid #DCDEEA;
+  padding: 10px;
+}
+
+.discount_title{
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #242A4B;
+  position: relative;
+  left: 10px;
+  top:3px;
+}
+
+.close_couponicon{  
+  height: 20px;
+  position: absolute;
+  right: 195px;
+}
+.close_couponicon >svg{
+  height: 25px;
+  width: 20px;
+}
+
+.driver_detail{
+  flex-basis:50%;
+}
+.bottom_detail{
+  height: 40vh;
+}
+
+.new_coupon{
+  display: flex;
+  align-items: center;
+}
+
+.driver_icon{
+  height: 20px;
+}
+
+.new_driver{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.driver_icon > svg{
+  color: #858AA8;
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.male_driver{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #242A4B;
+  position: relative;
+  left: 10px;
+}
+
+.moreoption_icon{
+  height: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+.moreoption_icon >svg{
+  height: 22px !important;
+  width: 22px !important;
+}
+
+.user_profileicon{
+  position: relative;
+  background-color: #541871;
+  color: #FFFFFF  ;
+  padding: 10px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_profileicon_container > svg{
+  height: 15px !important;
+  width: 15px !important;
+}
+.payment_detail{
+  padding: 15px;
+}
+.user_payment{
+  background-color: #E6EAFF;
+  height: 35px;
+  width: 75px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.minicar_icon > img{
+  height: 70px;
+    width: 70px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.find_location_container > canvas{
+  height: 20px !important;
+  width: 20px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+.find_location{
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.user_payicon{
+  position: relative;
+  left: 10px;
+  color: #5E6696; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select_method{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 30px;
+}
+
+.personal_payment{
+  position: relative;
+  left: 5px;
+  margin: 0px 10px;
+  color: #242A4B;
+  font-size: 14px;
+}
+
+.choose_method{
+  position: relative;
+  left: 5px;
+  margin: 0px 10px;
+  width: 50vw;
+  color: #541871;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.moreselect_icon{
+  position: absolute;
+  right:20px;
+}
+
+.moreselect_icon >svg {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+.confirm_section{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px -3px 6px 3px #0000000A;
+}
+
+.confirm_btn{
+  text-transform: capitalize;
+  padding: 15px;
+  border-radius: 5px;
+  color: #AAAFCB;
+  background-color: #DCDEEA;
+  border-style: none;
+  margin: 15px 10px 10px 10px;
+  width: 80%;
+  font-weight: bold;
+}
+
+.schedule_ride{
+  position: relative;
+  background-color: #541871;
+color: #FFFFFF;
+width: 55px;
+margin: 15px 10px 10px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.schedule_ride_container > svg{
+  height: 25px !important;
+  width: 25px !important;
+}
+
+/* promocode */
+
+.promocode_title{
+  position: relative;
+  left:10px;
+  font-size: 16px;
+  color:#858AA8;
+}
+
+/* Preference */
+
+.preference_detail{
+  font-size: 16px;
+  color: #858AA8;
+  position: relative;
+  left: 10px;
+}
+
+/* SwitchRide */
+
+.upper_section{
+  display: flex;
+  margin-top: 20px;
+}
+.switch_rider{
+  text-transform: capitalize;
+  position: relative;
+  left:100px;
+  margin: 0px;
+  color: #242A4B;
+}
+
+.down_popicon{
+  position: relative;
+  left:105px;
+  color: #242A4B;
+}
+
+.down_popicon_container > svg{
+  height: 20px !important;
+  width: 20px !important;
+}
+
+.close_popicon{
+  position: absolute;
+  right: 18px;
+  top:23px;
+  cursor: pointer;
+}
+
+.close_popicon_container > svg {
+  height: 22px !important;
+  width: 22px !important;
+}
+
+.profile_section{
+  display: flex;
+}
+
+.user_profile{
+  display: block;
+  margin: 15px 0px 10px 20px;
+}
+
+.user_profile >img{
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%;
+}
+
+.user_name{
+  margin:15px 10px;
+  color:#242A4B;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.select_user{
+  position: absolute;
+  right: 28px;
+  top:62px;
+}
+
+.choose_ride{
+  display: flex;
+}
+
+.plus_popicon{
+  display: block;
+  margin: 10px 0px 10px 20px;
+}
+
+.plus_popicon_container >svg{
+  height: 25px !important;
+  width: 25px !important;
+}
+
+.select_option{
+  margin:15px 10px;
+  color: #541871;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dialog_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close_popupbtn{
+  border-style:none;
+  background-color: #fff;
+}
