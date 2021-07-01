@@ -1047,3 +1047,7 @@ align-items: center;
   border-style:none;
   background-color: #fff;
 }
+
+.MuiDialog-paper{
+  margin: 0px !important;
+} 
